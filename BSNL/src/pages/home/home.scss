@@ -1,0 +1,48 @@
+page-home {
+  ion-row {
+    font-size: 20px;
+    // font-weight: bold;
+  }
+ion-icon{
+  font-size:35px;
+}
+  ion-col {
+    border: 5px solid #f4f4f4;
+    border-radius:10px;
+    text-align: center;
+  }
+  .color-blue {
+    background-color: rgb(15, 76, 97);
+  }
+  .color-green {
+    background-color: rgb(56, 104, 56);
+  }
+  .color-brown {
+    background-color: goldenrod;
+  }
+
+  .color-bloodred {
+    background-color: rgb(109, 25, 14);
+  }
+
+  .color-darkbrown {
+    background-color: rgb(95, 80, 41);
+  }
+  .color-darkgreen {
+    background-color: green;
+  }
+
+  .color-purple {
+    background-color:rgb(102, 68, 102);
+  }
+
+  .color-purple {
+    background-color:rgba(10, 104, 110, 0.534);
+  }
+  .color-darkred {
+    background-color:rgba(129, 53, 17, 0.534);
+  }
+  .color-yellow {
+    background-color:rgba(70, 75, 3, 0.534);
+  }
+}

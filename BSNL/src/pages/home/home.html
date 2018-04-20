@@ -1,0 +1,108 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button icon-only ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>
+      <img alt="logo" height="50" src="/assets/imgs/bsnl_jpeg.jpg">
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6 class="color-green">
+        <button ion-button large clear color="light">
+          <div>
+            <ion-icon name="card"></ion-icon>
+            <br/>
+            <label color="light">Pay Bill</label>
+          </div>
+        </button>
+      </ion-col>
+      <ion-col col-6 class="color-brown">
+        <button ion-button large clear color="light">
+          <div>
+            <ion-icon name="tablet-portrait"></ion-icon>
+            <br/>
+            <label>Recharge</label>
+          </div>
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 class="color-blue">
+        <button ion-button large clear color="light">
+          <div>
+            <ion-icon name="ios-wifi"></ion-icon>
+            <br/>
+            <label color="light">WiFi</label>
+          </div>
+        </button>
+      </ion-col>
+      <ion-col col-6 class="color-darkred">
+        <button ion-button large clear color="light">
+          <div>
+            <ion-icon name="calendar"></ion-icon>
+            <br/>
+            <label>History</label>
+          </div>
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 class="color-yellow">
+        <button ion-button large clear color="light">
+          <div>
+            <ion-icon name="speedometer"></ion-icon>
+            <br/>
+            <label color="light">Usage</label>
+          </div>
+        </button>
+      </ion-col>
+      <ion-col col-6 class="color-darkbrown">
+        <button ion-button large clear color="light" (click)="onBtnAccountsClick()">
+          <div>
+            <ion-icon name="people"></ion-icon>
+            <br/>
+            <label>Accounts</label>
+          </div>
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 class="color-purple">
+        <button ion-button large clear color="light">
+          <div>
+            <ion-icon name="settings"></ion-icon>
+            <br/>
+            <label color="light">Fancy No.</label>
+          </div>
+        </button>
+      </ion-col>
+      <ion-col col-6 class="color-bloodred">
+        <button ion-button large clear color="light">
+          <div>
+            <ion-icon name="pin"></ion-icon>
+            <br/>
+            <label>Hotspots</label>
+          </div>
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 class="color-darkgreen">
+        <button ion-button large clear color="light">
+          <div>
+            <ion-icon name="megaphone"></ion-icon>
+            <br/>
+            <label color="light">Offers</label>
+          </div>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

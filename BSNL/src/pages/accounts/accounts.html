@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Accounts</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only clear (click)="onAddAccountClick()">
+        <ion-icon name="md-add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p *ngIf="!IsAccountAdded">You dont have any account added. Please click on 'Add Account' menu to add accounts</p>
+  <ion-list>
+    <button ion-item *ngFor="let item of RegisteredAccountList" (click)="onAccountItemSelected(item)">
+      <ion-row>
+        <ion-col>{{ item.AccountNo }}</ion-col>
+        <ion-col>{{ item.AccountType }}</ion-col>
+      </ion-row>
+    </button>
+  </ion-list>
+</ion-content>
+<ion-footer>
+  <button ion-button block (click)="onAddAccountClick()">Add Account</button>
+</ion-footer>

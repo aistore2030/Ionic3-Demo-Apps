@@ -1,0 +1,54 @@
+<ion-menu [content]="leftsidemenu" type="overlay" side="left">
+  <ion-header>
+    <ion-navbar>
+      <ion-title>
+        BSNL
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <button ion-item icon-left>
+        <ion-icon name="home"></ion-icon>
+        Home</button>
+      <!-- <button ion-item icon-left>
+        <ion-icon name="card"></ion-icon>
+        Bill Pay</button>
+      <button ion-item icon-left>
+        <ion-icon name="tablet-portrait"></ion-icon>
+        Recharge</button>
+      <button ion-item icon-left>
+        <ion-icon name="ios-wifi"></ion-icon>
+        Intl. WiFi</button>
+      <button ion-item icon-left>
+        <ion-icon name="calendar"></ion-icon>
+        History</button>
+      <button ion-item icon-left>
+        <ion-icon name="speedometer"></ion-icon>
+        Usage</button>
+      <button ion-item icon-left>
+        <ion-icon name="people"></ion-icon>
+        Accounts</button>
+      <button ion-item icon-left>
+        <ion-icon name="settings"></ion-icon>
+        Fancy Nos.</button> -->
+      <button ion-item icon-left>
+        <ion-icon name="md-sad"></ion-icon>
+        Complaints</button>
+      <button ion-item icon-left>
+        <ion-icon name="logo-whatsapp"></ion-icon>
+        VAS</button>
+      <button ion-item icon-left>
+        <ion-icon name="md-contact"></ion-icon>
+        Profile</button>
+      <button ion-item icon-left>
+        <ion-icon name="md-help-circle"></ion-icon>
+        Help</button>
+      <button ion-item icon-left>
+        <ion-icon name="md-power"></ion-icon>
+        Exit</button>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav [root]="rootPage" #leftsidemenu></ion-nav>
