@@ -22,9 +22,6 @@ I have used open source Technologies / Framework for this projects
 
 What things you need to build and run the Apps
 
-```
-examples
-```
 
 ### Installing
 
