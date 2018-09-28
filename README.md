@@ -28,16 +28,7 @@ examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+For Installation and Environment set-up to get started with Ionic Framework
+Pls follow [these steps](https://beta.ionicframework.com/docs/installation/environment)
 
-Say what the step will be
 
-```
-example
-```
-
-And repeat
-
-```
-until finished
-```
