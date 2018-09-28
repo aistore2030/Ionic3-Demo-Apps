@@ -6,7 +6,6 @@ This repo contains some of my work on Hybrid Mobile Apps that I have developed
 
 App-1 | App-2 | App-3
 ------------ | ------------ | ------------ 
-Replica of BSNL App ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png) | Fav-Cote App  ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png) | Recipee App ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 
 
