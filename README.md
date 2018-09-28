@@ -6,7 +6,7 @@ This repo contains some of my work on Hybrid Mobile Apps that I have developed
 
 App-1 | App-2 | App-3
 ------------ | ------------ | ------------ 
-Replica of BSNL App ![BSNl App](https://github.com/pabitrosingh/IonicApps/blob/master/BSNL.PNG) | Favourite Quotes ![Fav-Quotes](https://github.com/pabitrosingh/IonicApps/blob/master/BSNL.PNG) | Recipee ![Recipe](https://github.com/pabitrosingh/IonicApps/blob/master/BSNL.PNG) 
+Replica of BSNL App ![BSNl App](https://github.com/pabitrosingh/IonicApps/blob/master/BSNL.PNG) | Favourite Quotes ![Fav-Quotes](https://github.com/pabitrosingh/IonicApps/blob/master/Fav-Quotes.PNG) | Recipee ![Recipe](https://github.com/pabitrosingh/IonicApps/blob/master/Recipee.PNG) 
 
 
 
