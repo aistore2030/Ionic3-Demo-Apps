@@ -20,12 +20,12 @@ I have used open source Technologies / Framework for this projects
 
 ### Prerequisites
 
-What things you need to build and run the Apps
+Things you need to build and run the Apps
 
 
 ### Installing
 
-For Installation and Environment set-up to get started with Ionic Framework
+For Installation , Environment set-up and Getting Started with Ionic Framework
 Pls follow [these steps](https://beta.ionicframework.com/docs/installation/environment)
 
 
